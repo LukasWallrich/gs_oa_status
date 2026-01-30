@@ -89,6 +89,10 @@ gs_oa_status/
 - DOI detection depends on DOIs being present in page links or OpenAlex having the title indexed
 - Some articles may show "Unknown" status if the DOI isn't in Unpaywall's database
 
+## Accuracy Note
+
+⚠️ **DOI matching is not 100% reliable.** When DOIs cannot be extracted directly from the page, the extension uses title-based matching via OpenAlex, which may occasionally return incorrect matches. The OA status displayed should be accurate enough to facilitate quick orientation among search results, but should be verified before relying on it for critical decisions (e.g., confirming an article can be legally shared).
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) file
