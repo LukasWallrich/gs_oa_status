@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Test files
+test_html.html
+test_html_files/
+
+# Releases (built separately)
+releases/
+*.zip
